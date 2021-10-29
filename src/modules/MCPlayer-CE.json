@@ -1,0 +1,10 @@
+{
+    "repo":"Exorcism0666/mplayer-ce",
+    "assetRegex":[".*mplayer-ce.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*mplayer-ce.*\\.zip"
+        }
+	]
+}

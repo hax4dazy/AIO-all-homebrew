@@ -1,0 +1,29 @@
+{
+    "repo":"Greeg0/BounceWii",
+    "assetRegex":[".*BounceWii-v0.2.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*BounceWii-v0.2.*\\.zip"
+        },
+		{
+			"action": "createDir",
+			"source": "apps/BounceWii"
+		},
+		{
+			"action": "move",
+			"source": "BounceWii/boot.dol"
+			"destination": "apps/BounceWii/boot.dol"
+		},
+		{
+			"action": "move",
+			"source": "BounceWii/icon.png"
+			"destination": "apps/BounceWii/icon.png"
+		},
+		{
+			"action": "move",
+			"source": "BounceWii/meta.xml"
+			"destination": "apps/BounceWii/meta.xml"
+		},
+	]
+}

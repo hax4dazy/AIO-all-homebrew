@@ -1,0 +1,10 @@
+{
+    "repo":"Exorcism0666/wiiradio",
+    "assetRegex":[".*radiow.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*radiow.*\\.zip"
+        }
+	]
+}

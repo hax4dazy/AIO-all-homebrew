@@ -1,0 +1,10 @@
+{
+    "repo":"Exorcism0666/ART_S55",
+    "assetRegex":[".*ART_S55.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*ART_S55.*\\.zip"
+        }
+	]
+}
