@@ -4,7 +4,7 @@
         "Media":{
             "active": true,
             "modules": [
-               "ART_S55", "WiiMC", "WiiMC_Channel"
+               "WiiMC", "WiiMC_Channel"
             ]
         }
     }
