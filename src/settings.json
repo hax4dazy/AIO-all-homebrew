@@ -4,7 +4,7 @@
         "Media":{
             "active": true,
             "modules": [
-               "WiiMC", "WiiMC_Channel"
+               "ART_S55", "WiiMC", "WiiMC_Channel", "MCPlayer-CE", "WiiRadio", "BounceWii"
             ]
         }
     }
